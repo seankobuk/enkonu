@@ -1,0 +1,85 @@
+
+$red:#c00;
+// 255 167 37
+$black:#333;
+
+$beige:#e8e1dc;
+$lightbeige:#ffedd2;
+$medium-beige:#e9e6d9;
+
+$link-color:#222;
+$text-color:#000;
+
+$mobile-padding:1rem;
+$tablet-padding:1.5rem;
+$desktop-padding:3.5rem;
+
+$footer-height:100px;
+
+
+@mixin urbanist {
+     font-family: "Urbanist", sans-serif;
+     font-optical-sizing: auto;
+     font-weight: 400;
+     font-style: normal;
+}
+
+@mixin font-light { font-weight:300; }
+
+@mixin font-size($sizeValue: 16){
+  font-size: ($sizeValue) + px;
+  font-size: ($sizeValue / 16) + rem;
+}
+
+
+@mixin vertical-center {
+  position: absolute;
+  top:50%;
+  transform:translateY(-50%);
+}
+
+@mixin horizontal-center {
+  position: absolute;
+  left:50%;
+  transform:translateX(-50%);
+}
+
+@mixin hide-text{
+  overflow:hidden;
+  text-indent:-9000px;
+  display:block;
+  height:0px;
+}
+
+@mixin button($bg:#444,$color:rgba(0,0,0,.5)) {
+  padding:10px;
+  display:inline-block;
+  font-weight:400;
+  text-align: center;
+  color:$color;
+  background-color: $bg;
+  outline: none;
+  position: relative;
+  vertical-align: middle;
+  font-size: 16px;
+  transition:all .2s ease-out;
+  padding:12px 36px;
+  //@include box-shadow(1px 1px 1px rgba(0,0,0,.9));
+
+  &:hover {text-decoration: none!important;}
+
+  @media (min-width: 768px) { font-size:18px;}
+  @media (min-width: 1024px) { font-size: 18px; }
+  @media (min-width: 1366px) {
+    font-size: 18px;
+    //padding: 10px 52px;
+  }
+}
+
+@mixin button-hover {
+  text-decoration: none!important;
+  box-shadow:0px 0px 30px 6px rgba(255,255,255,.7);
+  border-color:#fff;
+  background-color: rgba(255,255,255,.8); 
+  color:#000; 
+}

@@ -1,0 +1,31 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Logs & temp files
+*.log
+*.tmp
+*.swp
+
+# Environment / secrets
+.env
+.env.*
+
+# Node (if ever used)
+node_modules/
+
+# Sass cache
+.sass-cache/
+*.css.map
+
+# Large design/source files (optional — remove lines to track them)
+*.psd
+*.ai
+*.sketch
