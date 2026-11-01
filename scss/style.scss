@@ -309,16 +309,9 @@ body.need-padding footer {
   }
 }
 
-html {
-  //height: 100%;
-}
-
 .row {overflow: hidden; clear:both;}
 
 body:not(.home) {
-  header {
-    //border-bottom: solid 1px lighten($orange,25%);
-  }
   .main {
     max-width: 1020px;
   }
@@ -341,18 +334,7 @@ body:not(.home) {
   }
 }
 
-@media (min-width:1024px) {
-  body:not(.home) {
-    .main {
-     /* padding:2em 24px;
-      border:solid 8px darken($lightbeige,5%);
-      @include box-shadow(0px 0px 20px rgba(0,0,0,.1));*/
-    }
-  }
-  .main section a:hover {
-    //text-decoration: underline;
-  }
-}
+
 
 .button {
   @include button(#444,rgba(255,255,255,.7));
@@ -456,13 +438,6 @@ header {
 
 }
 
-@media (min-width: 1024px) {
-  body:not(.home) .logo {
-    //float: left;
-  }
-  //.logo {float:left;}
-}
-
 /*************************************************** MENU ********/
 
 
@@ -557,10 +532,6 @@ header {
   }
 
 
-  .bar:nth-child(2) {
-    //background: 0 0;
-  }
-
   .bar-x-top, .bar-x-bottom {
     -moz-transition-delay: 0s,.3s;
     -webkit-transition-delay: 0s,.3s;
@@ -594,11 +565,6 @@ header {
    // transform: translate3d(0,-100%,0);
   //  -webkit-transform: translate3d(0,-100%,0);
   }
-  .nav.open {
-    //transform: translate3d(0,0,0);
-   // -webkit-transform: translate3d(0,0,0);
-  }
-
   .main-menu.activated {
     transition: transform 500ms linear;
     -webkit-transition: -webkit-transform 500ms linear;
@@ -1030,9 +996,7 @@ input[type="submit"], button {
 
 
 
-.apps .page-content {
-  //max-width:1036px;
-}
+
 
 .app-buttons {
   margin-top:1em;
@@ -1406,57 +1370,57 @@ header {
   &:nth-child(1) {
     top: 15%;
     left: 8%;
-    animation: float1 17s infinite;
+    animation: float1 17s -5s infinite;
   }
   
   &:nth-child(2) {
     top: 25%;
     right: 12%;
-    animation: float2 23s infinite;
+    animation: float2 23s -9s infinite;
   }
   
   &:nth-child(3) {
     bottom: 20%;
     left: 15%;
-    animation: float3 29s infinite;
+    animation: float3 29s -17s infinite;
   }
   
   &:nth-child(4) {
     top: 60%;
     right: 10%;
-    animation: float4 19s infinite;
+    animation: float4 19s -7s infinite;
   }
   
   &:nth-child(5) {
     bottom: 35%;
     left: 10%;
-    animation: float5 25s infinite;
+    animation: float5 25s -20s infinite;
   }
   
   &:nth-child(6) {
     top: 40%;
     left: 12%;
-    animation: float1 31s infinite;
+    animation: float1 31s -12s infinite;
   }
   
   &:nth-child(7) {
     bottom: 30%;
     right: 15%;
-    animation: float2 21s infinite;
+    animation: float2 21s -15s infinite;
   }
   
   &:nth-child(8) {
     top: 12%;
     left: 50%;
     transform: translateX(-50%);
-    animation: float3 27s infinite;
+    animation: float3 27s -3s infinite;
   }
   
   &:nth-child(9) {
     bottom: 15%;
     left: 50%;
     transform: translateX(-50%);
-    animation: float4 33s infinite;
+    animation: float4 33s -25s infinite;
   }
   
   @media (max-width: 767px) {
@@ -1746,9 +1710,7 @@ section {
 
 
 
-.main {
-  //padding: 2rem;
-}
+
 
 .release {
   text-align: center;
