@@ -1370,19 +1370,19 @@ header {
   &:nth-child(1) {
     top: 15%;
     left: 8%;
-    animation: float1 17s -5s infinite;
+    animation: float1 17s -3s infinite;
   }
   
   &:nth-child(2) {
     top: 25%;
     right: 12%;
-    animation: float2 23s -9s infinite;
+    animation: float2 23s -18s infinite;
   }
   
   &:nth-child(3) {
     bottom: 20%;
     left: 15%;
-    animation: float3 29s -17s infinite;
+    animation: float3 29s -26s infinite;
   }
   
   &:nth-child(4) {
@@ -1394,33 +1394,33 @@ header {
   &:nth-child(5) {
     bottom: 35%;
     left: 10%;
-    animation: float5 25s -20s infinite;
+    animation: float5 25s -19s infinite;
   }
   
   &:nth-child(6) {
     top: 40%;
     left: 12%;
-    animation: float1 31s -12s infinite;
+    animation: float1 31s -6s infinite;
   }
   
   &:nth-child(7) {
     bottom: 30%;
     right: 15%;
-    animation: float2 21s -15s infinite;
+    animation: float2 21s -17s infinite;
   }
   
   &:nth-child(8) {
     top: 12%;
     left: 50%;
     transform: translateX(-50%);
-    animation: float3 27s -3s infinite;
+    animation: float3 27s -11s infinite;
   }
   
   &:nth-child(9) {
     bottom: 15%;
     left: 50%;
     transform: translateX(-50%);
-    animation: float4 33s -25s infinite;
+    animation: float4 33s -12s infinite;
   }
   
   @media (max-width: 767px) {
@@ -1798,7 +1798,7 @@ section {
 }
 
 .bio-section {
-  background-color: #0a0a0a;
+  background-color: #000;
   position: relative;
 }
 
