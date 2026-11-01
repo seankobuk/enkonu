@@ -1,8 +1,8 @@
 
-// Blur dissolve scroll animation
+// Scroll animations: blur-dissolve + drift
 (function() {
-    const blurEls = document.querySelectorAll('.blur-dissolve');
-    if (!blurEls.length) return;
+    const animEls = document.querySelectorAll('.blur-dissolve, .drift-left, .drift-right');
+    if (!animEls.length) return;
     const observer = new IntersectionObserver(function(entries) {
         entries.forEach(function(entry) {
             if (entry.isIntersecting) {
@@ -11,7 +11,7 @@
             }
         });
     }, { threshold: 0.3 });
-    blurEls.forEach(function(el) { observer.observe(el); });
+    animEls.forEach(function(el) { observer.observe(el); });
 })();
 
 $(document).ready(function(){
