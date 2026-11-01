@@ -71,6 +71,17 @@
     <section class="video-section">
         <div class="section-content">
             <h2 class="section-title">Video</h2>
+
+            <div class="video-container release__video">
+                <iframe
+                        src="https://www.youtube.com/embed/xcFN9Aff73Q?si=VMAgU6lVdsdB2dMt"
+                        title="YouTube video"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                </iframe>
+            </div>
+
             <div class="video-container release__video">
                 <iframe
                         src="https://www.youtube.com/embed/X5TP0guHlvE?si=UAiVteybRP3W-diy"
@@ -82,7 +93,6 @@
             </div>
 
             <div class="video-container release__video">
-
                 <iframe
                         src="https://www.youtube.com/embed/S3XFFWnTHxw?si=kUqK7DY_3IP6y2ba"
                         title="YouTube video"
@@ -90,7 +100,6 @@
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen>
                 </iframe>
-
             </div>
 
         </div>
