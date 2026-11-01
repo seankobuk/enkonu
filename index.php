@@ -72,7 +72,7 @@
         <div class="section-content">
             <h2 class="section-title">Video</h2>
 
-            <div class="video-container release__video">
+            <div class="video-container release__video blur-dissolve">
                 <iframe
                         src="https://www.youtube.com/embed/xcFN9Aff73Q?si=VMAgU6lVdsdB2dMt"
                         title="YouTube video"
@@ -82,7 +82,7 @@
                 </iframe>
             </div>
 
-            <div class="video-container release__video">
+            <div class="video-container release__video blur-dissolve">
                 <iframe
                         src="https://www.youtube.com/embed/X5TP0guHlvE?si=UAiVteybRP3W-diy"
                         title="YouTube video"
@@ -92,7 +92,7 @@
                 </iframe>
             </div>
 
-            <div class="video-container release__video">
+            <div class="video-container release__video blur-dissolve">
                 <iframe
                         src="https://www.youtube.com/embed/S3XFFWnTHxw?si=kUqK7DY_3IP6y2ba"
                         title="YouTube video"
@@ -110,7 +110,7 @@
         <div class="section-content">
             <h2 class="section-title">MUSIC</h2>
 
-            <div class="release">
+            <div class="release blur-dissolve">
                 <div class="release-title"><span class="release-type">EP:</span> Human by Nature</div>
                 <div class="release-cover">
                     <img src="/images/Human_by_Nature-cover.jpg" alt="Human by Nature cover" />
@@ -132,7 +132,7 @@
                 </div>
             </div>
 
-            <div class="release">
+            <div class="release blur-dissolve">
                 <div class="release-title"><span class="release-type">Single:</span> Changeling</div>
                 <div class="release-cover">
                     <img src="/images/Changeling-cover.jpg" alt="Changeling cover" />
@@ -155,7 +155,7 @@
             </div>
 
 
-            <div class="release">
+            <div class="release blur-dissolve">
 
                 <div class="release-title"><span class="release-type">Single:</span> Pray</div>
 
@@ -186,7 +186,7 @@
     </section>
 
     <section class="bio-section">
-        <div class="section-content">
+        <div class="section-content blur-dissolve">
         <h2 class="section-title">WELCOME</h2>
         <div class="bio-content">
             <p>Life is hard and sometimes it feels like no one sees you for who you are. This is your sanctuary, a place where you can experience music that
@@ -256,3 +256,9 @@
 
 
 </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>

@@ -1608,6 +1608,17 @@ section {
   position: relative;
 }
 
+.blur-dissolve {
+  opacity: 0;
+  filter: blur(10px);
+  transition: opacity 1s ease, filter 1s ease;
+
+  &.visible {
+    opacity: 1;
+    filter: blur(0);
+  }
+}
+
 .section-title {
   //font-family: 'NotoSerifCJKsc-Bold', serif;
 
@@ -1675,7 +1686,7 @@ section {
   width: 100%;
   max-width: 900px;
   max-height: 100vh;
-  margin: 0 auto;
+  margin: 2rem auto;
   aspect-ratio: 16 / 9;
 }
 

@@ -1,4 +1,19 @@
 
+// Blur dissolve scroll animation
+(function() {
+    const blurEls = document.querySelectorAll('.blur-dissolve');
+    if (!blurEls.length) return;
+    const observer = new IntersectionObserver(function(entries) {
+        entries.forEach(function(entry) {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('visible');
+                observer.unobserve(entry.target);
+            }
+        });
+    }, { threshold: 0.3 });
+    blurEls.forEach(function(el) { observer.observe(el); });
+})();
+
 $(document).ready(function(){
 
     // SCROLL to Top
